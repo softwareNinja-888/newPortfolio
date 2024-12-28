@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import { Header } from './components/Header'
-import { Main } from './components/Main'
+import { Main } from './components/MainContent'
 import { Footer } from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <div className="flex flex-col h-full w-screen bg-primary">
+      <div className="flex flex-col gap-44 h-full w-screen bg-primary">
         <Header />
         <Main/>
         <Footer/>

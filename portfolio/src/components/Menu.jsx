@@ -46,8 +46,10 @@ export function HamburgerMenu({ menuOpen, setMenuOpen }){
         {/* Links */}
         <nav className="flex flex-col space-y-4 text-lg text-fontColor font-poppins items-center">
           <a href="#home" className="hover:underline">Home</a>
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#subscribe" className="hover:underline">Subscribe</a>
+          <a href="#about" className="hover:underline">About Me</a>
+          <a href="#subscribe" className="hover:underline">Contact Me</a>
+          <a href="#projects" className="hover:underline">View Projects</a>
+
         </nav>
         <div className="flex space-x-4 mt-16 gap-5">
           <a href="#" className="w-10">
