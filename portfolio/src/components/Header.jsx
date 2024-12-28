@@ -18,7 +18,7 @@ export function Header(){
           opacity: 1,
           transition: {
             delayChildren: 0.3, // Delay before children animations start
-            staggerChildren: 0.2, // Delay between each child animation
+            staggerChildren: 0.6, // Delay between each child animation
           },
         },
       };
@@ -38,24 +38,16 @@ export function Header(){
                   <HamburgerMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
                 )}
             </div>
-            {/*
-             <div className="flex flex-col items-center justify-center gap-3 text-fontColor">lassName="flex flex-col items-center justify-center gap-3 text-fontColor">
-                <div className="flex items-center justify-center text-4xl font-poppins flex-wrap text-center mb-4">Building Web Applications That Drive Results</div>
-                <div className="text-sm leading-7 text-center mb-10 font-roboto">I transform your ideas into interactive web realities, focusing on usability and performance.</div>
-                <Button text={`Let's Talk`} width='w-36'/>
-            </div>
-                <div className="flex items-center justify-center text-4xl font-poppins flex-wrap text-center mb-4">Building Web Applications That Drive Results</div>
-                <div className="text-sm leading-7 text-center mb-10 font-roboto">I transform your ideas into interactive web realities, focusing on usability and performance.</div>
-                <Button text={`Let's Talk`} width='w-36'/>
-            </div> */}
             <motion.div variants={containerVariants} initial="hidden" animate="visible" className="flex flex-col items-center justify-center gap-3 text-fontColor">
-                <motion.h1 variants={itemVariants}>
-                    <div className="flex items-center justify-center text-4xl font-poppins flex-wrap text-center mb-4">Building Web Applications That Drive Results</div>
-                </motion.h1>
+                <motion.div variants={itemVariants} className="flex items-center justify-center text-4xl font-poppins flex-wrap text-center mb-4">
+                    Building Web Applications That Drive Results
+                </motion.div>
                  <motion.div variants={itemVariants} className="text-sm leading-7 text-center mb-10 font-roboto">
                      I transform your ideas into interactive web realities, focusing on usability and performance.
                  </motion.div>
-                <motion.button variants={itemVariants}><Button text={`Let's Talk`} width='w-36'/></motion.button>
+                <motion.button variants={itemVariants}>
+                    <Button text={`Let's Talk`} width='w-36'/>
+                </motion.button>
             </motion.div>
         </header>
 
