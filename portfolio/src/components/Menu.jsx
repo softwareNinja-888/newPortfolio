@@ -41,7 +41,7 @@ export function HamburgerMenu({ menuOpen, setMenuOpen }){
         variants={menuVariants}
       >
         {/* CLOSE BTN */}
-        <img src={close} onClick={() => setMenuOpen(false)} className="absolute top-10 right-20 text-2xl w-5" />
+        <img src={close} onClick={() => setMenuOpen(false)} className="absolute top-10 right-10 text-2xl w-5" />
 
         {/* Links */}
         <nav className="flex flex-col space-y-4 text-lg text-fontColor font-poppins items-center">
