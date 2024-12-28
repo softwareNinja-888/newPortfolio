@@ -1,0 +1,2 @@
+primary : #eeedec
+2nd: #f5f5f5
