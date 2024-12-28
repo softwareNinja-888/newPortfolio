@@ -28,7 +28,7 @@ export function Form () {
       <h2 className="text-3xl font-poppins mb-4 text-fontColor text-center">Contact Me!</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-black">
+          <label htmlFor="name" className="block text-base font-roboto text-fontColor">
             Name
           </label>
           <input
@@ -45,7 +45,7 @@ export function Form () {
         <div>
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-black"
+            className="block text-base font-roboto text-fontColor"
           >
             Email Address
           </label>
@@ -63,7 +63,7 @@ export function Form () {
         <div>
           <label
             htmlFor="message"
-            className="block text-sm font-medium text-black"
+            className="block text-base font-roboto text-fontColor"
           >
             Message
           </label>
