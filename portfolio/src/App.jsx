@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="">
+      <div className="h-screen bg-primary">
         <Header />
       </div>
     </>
