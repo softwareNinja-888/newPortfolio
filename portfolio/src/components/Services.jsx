@@ -17,7 +17,7 @@ export function Services(){
         <>
 
             <motion.div ref={ref} initial={{x:"-100%", opacity:0}} animate={isInView ? {x:0, opacity:1} : {}} transition={{duration:1.5, ease: 'easeOut'}}>
-                <div className="text-fontColor text-3xl text-center font-poppins mt-16">Services</div>
+                <div className="text-fontColor text-3xl text-center font-poppins mt-20 underline">Services</div>
                 <div className="flex mt-16 font-roboto">
                     <div className=" w-52 flex flex-col gap-6 text-fontColor mx-6 ">
                         <img src={reponsive} alt="ui logo" className="w-12 h-12 self-center" />

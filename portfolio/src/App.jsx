@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col gap-44 h-full w-screen bg-primary">
+      <div className="flex flex-col gap-32 h-full w-screen bg-primary">
         <Header />
         <Main/>
         <Footer/>

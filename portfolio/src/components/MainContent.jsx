@@ -1,10 +1,12 @@
 import { TopProject } from "./TopProject"
 import { Services } from "./Services"
+import { Projects } from "./Projects"
 export function Main(){
     return (
-        <div className="mt-10 flex flex-col">
+        <div className="flex flex-col">
             <TopProject/>
             <Services/>
+            <Projects/>
         </div>
     )
 }
