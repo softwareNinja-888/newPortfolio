@@ -13,7 +13,7 @@ export function Projects(){
 
             <div>
                 <div className="text-fontColor text-3xl text-center font-poppins mt-20 underline">My Projects</div>
-                <div className="flex flex-row flex-wrap justify-around w-screen">
+                <div className="grid grid-cols-1 justify-items-center w-screen">
                     <ProjectDiv/>
                     <ProjectDiv/>
                     <ProjectDiv/>
