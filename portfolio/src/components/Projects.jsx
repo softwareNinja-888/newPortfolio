@@ -7,7 +7,6 @@ import React,{useState,useEffect} from 'react';
 
 import {ProjectDiv} from './ProjectDiv'
 
-// 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 DO NOT DELETE
 
 export function Projects(){
     
