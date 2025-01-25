@@ -14,7 +14,7 @@ export function Projects(){
     const repositories = [
         { owner: "softwareNinja-888", name: "salt_light" ,vercel:'https://salt-light-9h3y.vercel.app/'},
         { owner: "softwareNinja-888", name: "FlixHub" ,vercel:'https://flix-hub-lac.vercel.app/'},
-        { owner: "softwareNinja-888", name: "financeDashboard" ,vercel:'https://finance-dashboard-tan-ten.vercel.app/'},
+        { owner: "softwareNinja-888", name: "one-health" ,vercel:'https://one-health-three.vercel.app/'},
         { owner: "softwareNinja-888", name: "cv" ,vercel:'https://cv-omega-three.vercel.app/'},
 
     ];
