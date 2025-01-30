@@ -12,11 +12,7 @@ export function Projects(){
     
     const [repos, setRepos] = useState([]); // Initialize state as an array
     const repositories = [
-        { owner: "softwareNinja-888", name: "salt_light" ,vercel:'https://salt-light-9h3y.vercel.app/'},
-        { owner: "softwareNinja-888", name: "FlixHub" ,vercel:'https://flix-hub-lac.vercel.app/'},
         { owner: "softwareNinja-888", name: "oneHealth" ,vercel:'https://one-health-three.vercel.app/'},
-        { owner: "softwareNinja-888", name: "cv" ,vercel:'https://cv-omega-three.vercel.app/'},
-
     ];
 
     useEffect(() => {
